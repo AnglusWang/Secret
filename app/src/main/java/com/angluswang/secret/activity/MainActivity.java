@@ -1,7 +1,9 @@
-package com.angluswang.secret;
+package com.angluswang.secret.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import com.angluswang.secret.R;
 
 public class MainActivity extends Activity {
 
