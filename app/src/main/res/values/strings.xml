@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Secret</string>
+    <string name="login">Login</string>
+    <string name="phone">phone：</string>
+    <string name="get_code">Get Code</string>
+    <string name="code">Code：</string>
 </resources>

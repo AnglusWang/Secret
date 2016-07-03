@@ -20,5 +20,6 @@ public class MainActivity extends Activity {
         } else {
             startActivity(new Intent(this, LoginActivity.class));
         }
+        finish();
     }
 }
