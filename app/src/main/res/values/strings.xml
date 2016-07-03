@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Secret</string>
+    <string name="app_name">匿名社交</string>
     <string name="login">Login</string>
     <string name="phone">phone：</string>
     <string name="get_code">Get Code</string>
