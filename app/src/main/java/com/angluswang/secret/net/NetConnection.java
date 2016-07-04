@@ -41,6 +41,7 @@ public class NetConnection {
                             BufferedWriter bw = new BufferedWriter(
                                     new OutputStreamWriter(uc.getOutputStream(), Config.CHARSET));
                             bw.write(paramsStr.toString());
+                            bw.flush();
                             break;
                         case GET:
                         default:
@@ -85,7 +86,7 @@ public class NetConnection {
 
                 super.onPostExecute(s);
             }
-        };
+        }.execute();
     }
 
     public static interface SuccessCallback {
