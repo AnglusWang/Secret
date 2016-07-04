@@ -10,7 +10,7 @@ import com.angluswang.secret.R;
  * 呈现所有聊天消息列表的界面
  */
 
-public class TimelineActivity extends ListActivity{
+public class TimelineActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

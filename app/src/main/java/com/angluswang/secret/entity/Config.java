@@ -12,6 +12,7 @@ public class Config {
 
     public static final String KEY_TOKEN = "token";
     public static final String APP_ID = "com.angluswang.secret";
+    public static final String CHARSET = "utf-8";
 
     /**
      * 获取到缓存的token
