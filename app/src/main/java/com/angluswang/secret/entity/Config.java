@@ -10,9 +10,21 @@ import android.content.SharedPreferences;
 
 public class Config {
 
+    public static final String SERVER_URL = "http://demo.eoeschool.com/api/v1/nimings/io";
+
     public static final String KEY_TOKEN = "token";
+    public static final String KEY_ACTION = "action";
+    public static final String KEY_PHONE_NUM = "phone";
+    public static final String KEY_STATUS = "status";
+
+    public static final int RESULT_STATUS_FAILED = 0;
+    public static final int RESULT_STATUS_SUCCESS = 1;
+    public static final int RESULT_STATUS_INVALID_TOKEN = 2;
+
     public static final String APP_ID = "com.angluswang.secret";
     public static final String CHARSET = "utf-8";
+
+    public static final String ACTION_GET_CODE = "send_pass";
 
     /**
      * 获取到缓存的token
