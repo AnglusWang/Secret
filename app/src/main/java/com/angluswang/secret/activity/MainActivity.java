@@ -10,7 +10,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        startActivity(new Intent(this, LoginActivity.class));
+        startActivity(new Intent(this, TimelineActivity.class));
 //        String token = Config.getCachedToken(this);
 //        if (token != null) {
 //            Intent intent = new Intent(this, TimelineActivity.class);
@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
 //        } else {
 //            startActivity(new Intent(this, LoginActivity.class));
 //        }
+
         finish();
     }
 }
